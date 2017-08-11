@@ -12,6 +12,7 @@
 		FD53E6621F3DA4E500637C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD53E6601F3DA4E500637C06 /* Main.storyboard */; };
 		FD53E6641F3DA4E500637C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD53E6631F3DA4E500637C06 /* Assets.xcassets */; };
 		FD53E6671F3DA4E500637C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD53E6651F3DA4E500637C06 /* LaunchScreen.storyboard */; };
+		FD9D80A11F3DA7CA00EC778C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D80A01F3DA7CA00EC778C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD53E6631F3DA4E500637C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD53E6661F3DA4E500637C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD53E6681F3DA4E500637C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9D80A01F3DA7CA00EC778C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FD53E65C1F3DA4E500637C06 /* AppDelegate.swift */,
 				FD53E65E1F3DA4E500637C06 /* ViewController.swift */,
 				FD53E6601F3DA4E500637C06 /* Main.storyboard */,
+				FD9D80A01F3DA7CA00EC778C /* SecondViewController.swift */,
 				FD53E6631F3DA4E500637C06 /* Assets.xcassets */,
 				FD53E6651F3DA4E500637C06 /* LaunchScreen.storyboard */,
 				FD53E6681F3DA4E500637C06 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9D80A11F3DA7CA00EC778C /* SecondViewController.swift in Sources */,
 				FD53E65F1F3DA4E500637C06 /* ViewController.swift in Sources */,
 				FD53E65D1F3DA4E500637C06 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				FD53E66D1F3DA4E500637C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
